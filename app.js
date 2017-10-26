@@ -7,10 +7,10 @@ function play(userChoice) {
     if (userChoice == compChoice) {
         console.log('TIE')
         results.innerHTML = `
-        <p>player chose: ${userChoice}, computer chose: ${compChoice}</p>
+        <p>player chose: ${userChoice},   computer chose: ${compChoice}</p>
         <p> it's a tie!</p>
         `
-        alert('TIE')
+      
     }
     else {
         if (userChoice == 'rock') {
@@ -122,3 +122,4 @@ function play(userChoice) {
 //         else if cc === "s", alert ("You Lose")
 //         else if cc === "r", alert ("You Win)
 // )
+

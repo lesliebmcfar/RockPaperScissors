@@ -8,4 +8,18 @@
   margin: 40px;
   
 }
-button 
+.myButtonLink {
+	display: block;
+	width: 150px;
+	height: 175px;
+  background: url('/assets/rock-eyebrow.jpg') bottom;
+	/*text-indent: -99999px;
+}*/
+}
+.myButtonLink:hover {
+	background-position: 0 0;
+}
+.scissorButton  {
+  background: url('/assets/scissors');
+
+}
